@@ -9,6 +9,7 @@ function App() {
   return (
     <>
       <h1>This is demo netlify project</h1>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, exercitationem vel! Suscipit totam, distinctio sunt earum perspiciatis non nihil amet quis iusto corrupti, animi nisi, ducimus placeat accusantium consequatur atque?</p>
     </>
   )
 }
