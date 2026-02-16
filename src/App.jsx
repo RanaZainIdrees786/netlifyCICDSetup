@@ -2,13 +2,15 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import chatgptImg from './assets/chatgpt_copy_resized.jpg'
+
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <img src="./src/assets/chatgpt_copy_resized.jpg" alt="" />
+      <img src={chatgptImg} alt="ChatGPT" />
       <h1>This is demo netlify project</h1>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, exercitationem vel! Suscipit totam, distinctio sunt earum perspiciatis non nihil amet quis iusto corrupti, animi nisi, ducimus placeat accusantium consequatur atque?</p>
     </>
